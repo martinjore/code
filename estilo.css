@@ -1,0 +1,23 @@
+#tabla1,td,th{
+    border: 1px solid rgb(71, 72, 136);
+    
+    height: 20px;
+    
+}
+
+#tabla1,tr{
+    width: 100%;
+}
+@media handhel, screen and(max-width:599px){
+ .table{
+
+    width: 599px;
+    border: 1px solid rgb(71, 72, 136);
+    
+    height: 10px;
+
+
+ }
+   
+}
+    

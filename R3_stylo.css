@@ -1,0 +1,33 @@
+body
+{
+    background-color: darkgoldenrod;
+}
+#titulo{
+	width: 1350px;
+	height: 156px;
+	line-height:156px;
+	background-color:#ce9720;
+	float: left;
+	font-family: Arial;
+	font-size: 45px;
+	text-shadow:17px 17px 3px #423e42;
+	color:#fff;
+	text-align: center;
+	  border-radius:25px 25px 25px 25px;
+	  
+}
+
+#espacio
+{
+    height: 190px;
+}
+.col-sm-4{
+    float: left;
+}
+.col-md-4{
+
+    float:right;
+
+}
+
+    

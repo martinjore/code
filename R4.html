@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>4</title>
+    <link rel="shortcut icon" href="favicon.jpg" /> 
+    <meta name="viewport"content="width=device-width , user-escalable initial-scale=1.0 minimun-scale=1.0 maxiumun-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+   <script>
+       
+       fetch(' http://api.weatherstack.com/current?access_key=02df164f0bec26ab4e31b1c2c54a9d41&query=Nueva York')
+        .then((response)=> response.json())
+        .then((climas)=>
+        document.write(JSON.stringtify(climas))
+        
+
+)
+
+
+   </script>
+
+  
+</head>
+<body>
+
+    <div class="contenedor">
+        
+      </div>
+
+</body>
+</html>
